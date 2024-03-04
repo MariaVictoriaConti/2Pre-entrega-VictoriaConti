@@ -1,0 +1,674 @@
+
+
+*{
+    margin: 0;
+    padding: 0;    
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+header{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+.logoo{
+    width: 190px;
+    height: 70px;
+    background-image: url(./imagenes/logoreal2.png);
+    background-size: cover;
+    background-position: center;
+}
+.menuu{
+font-size: 30px;
+color: white;
+margin-right: 10px;
+}
+
+nav{
+    width: 50%;
+    height: auto;
+    display: none;
+}
+ul{
+    width: 100%;
+    display: flex; 
+    justify-content: end;   
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #FFFFFF;
+    font-size: auto;
+    letter-spacing: 2px;
+}
+li{
+    padding: 10px;
+}
+li a:hover{
+    text-shadow:rgb(204, 201, 201) -1px -1px;
+}
+
+.index{
+    display: grid;
+    width: 100%;
+}
+
+.index div{
+    height: 150px;
+    width: 100%;
+    border: 10px solid black;
+    transition: all 0.9s;
+}
+.index div:hover{
+    transform: scale(1.03);
+}
+.indexCafe, .indexRodadas, .indexTaller, .indexTienda{
+    display: block;
+    background-size: cover;
+    background-position: center;
+    text-align: center;    
+    line-height: 150px;
+}
+.indexCafe{
+    background-image: url(./imagenes/cafe.jpg);
+}
+.indexRodadas{
+    background-image: url(./imagenes/fondo2.jpg);
+}
+.indexTaller{
+    background-image: url(./imagenes/taller.jpg);
+}
+.indexTienda{
+    background-image: url(./imagenes/bicispared.webp);
+}
+
+.index div a{
+text-decoration: none;
+color: white;
+font-size: 40px;
+font-weight: bold;
+}
+.index div a:hover{
+    text-shadow: 0 0 10px rgb(245, 244, 244);
+}
+
+footer{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+footer h5{
+   padding: 5px 2px;
+   margin-left: 5px;
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: bolder;
+    text-align: center;
+    align-items: center;
+}
+
+.redesSociales{
+    display: block;
+text-align: center;
+line-height: 70px;
+}
+.redesSociales a{
+font-size: 20px;
+    color: white;
+    padding: 3px;
+}
+.redesSociales a:hover{
+    text-shadow: 5px 5px 10px white,
+    -5px -5px 10px white;
+}
+.conocenos{
+    width: 20%;
+    background-image: url(./imagenes/logoreal2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+/*Tienda*/
+
+.sectionTienda{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.sectionTienda h1{
+    width: 228px;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-left: 40px;
+    margin-top: 10px;
+    padding: 2px;
+    background-color: #151212;
+}
+#tablaTienda{
+text-align: center;
+}
+th a, td a strong{
+    font-size: 50px;
+    color: #D6D6D6;
+    font-weight: bolder;
+
+}
+td a strong:hover{
+    text-shadow: 0 0 5px #FFFFFF;
+}
+th a:hover{
+    text-shadow: 0 0 5px #FFFFFF;
+}
+.imgTienda1, .imgTienda2, .imgTienda3{
+    width: 60%;
+text-align: center;
+opacity: 80%;
+border: 2px solid black;
+}
+.imgTienda2{
+margin-top: 20px;
+}
+.imgTienda3{
+margin-bottom: 15px;
+}
+
+
+/*secciones de Tienda*/
+
+.sectionProductos{
+    background-color: rgba(0, 0, 0, 0.621);
+    display: flex;
+    flex-direction: column;
+    }
+    .tituloProductos{
+        display: block;
+        font-size: 40px;
+        color: #FFFFFF;
+        font-weight: bolder;
+        margin-left: 10px;
+        margin-top: 10px;
+        background-color: #020202;
+        width: 250px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .productos{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+    }
+    .card{
+        height: auto;
+        width: 250px;
+        border: 2px solid black;
+        background-color: rgba(207, 203, 203, 0.379);
+        padding: 10px;
+        text-align: center;
+        margin: 30px ;
+    }
+    .card h1{
+        font-size: 30px;
+        color: rgb(155, 2, 2);
+        text-shadow: 0 0 3px black;
+        margin-bottom: 10px;
+    }
+    .card img{
+        height: 150px;
+        width: 100%;
+        border: 1px solid black;
+        
+    }
+    .card p{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .card a{
+        width: 100%;
+        background-color: black;
+        font-size: 25px;
+        padding: 2px 5px;
+        text-decoration: none;
+        border-radius: 10px;
+        margin: 0px;
+    }
+    .card a:hover{
+        text-shadow: 0 0 9px #fff;
+    }
+    
+    .volverTienda{
+        width: 54px;
+        height: 25px;
+        background-color: rgba(155, 2, 2, 0.82);
+        font-size: 20px;
+        position: fixed;
+        bottom: 70px;
+        right: 0px;
+        border: 2px solid black;
+        margin-bottom: 17px;
+    }
+    .volverTienda:hover{
+        box-shadow: 0 0 15px rgb(255, 254, 254);
+    }
+    .ropa{
+        object-fit:contain;
+        background-color: white;
+    }
+    
+
+/*Cafe*/
+
+.sectionCafe{
+    width: 100%;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.621);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+.items{
+    display: grid;
+    width: 100%;
+    height: 225px;
+    border: 2px solid black;
+    background-size: cover;
+    background-position: center;
+    justify-items: center;
+    font-size: 50px;
+    color: #D6D6D6;
+    font-weight: bolder;
+    justify-self: center;
+align-items: center;
+filter:opacity(80%);
+transition: all 0.9s;
+}
+
+.items:hover{
+    filter:opacity(100%);
+    transform: scale(1.02);
+}
+.item2{
+background-image: url(./imagenes/coffee-2560260_1280.jpg);
+}
+.item3 img{
+width: 133px;
+}
+.item4{
+    background-image: url(./imagenes/silloncafeteria.webp);
+}
+.item5{
+    background-image: url(./imagenes/barrabikeplace.webp);
+}
+.item6 img{
+    width: 133px;
+    height: auto; 
+}
+.item7{
+    background-image: url(./imagenes/medialuna2.webp) ;
+}
+.item8 img{
+    width: 133px; 
+}
+
+/*CAfe ok*/
+.sectionCafeOk{
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "cafe cafe" 
+    "amigos biker"
+    "delicatessen delicatessen";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.cafe{   
+height: 150px;
+width: 100%;
+padding: 3px;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+font-size: 30px;
+color: white;
+text-align: center;
+line-height: 150px;
+font-weight: bolder;
+}
+.cafe1{
+    grid-area: cafe; 
+background-image: url(imagenes/coffee-2560260_1280.jpg);
+}
+
+.biker{
+    grid-area: biker;
+    background-image: url(./icons/biker.png);
+}
+.amigos{
+    grid-area: amigos;
+    background-image: url(./imagenes/barrabikeplace.webp);
+    
+}
+
+.delicatessen{
+    grid-area: delicatessen;
+background-image: url(./imagenes/medialuna2.webp);
+color: black;
+font-weight: bolder;font-size: 30px;
+}
+.sillon{
+    background-image: url(./imagenes/silloncafeteria.webp);
+}
+.bike{
+background-image: url(./icons/cafe.png);
+}
+
+/*Taller*/
+
+.sectionTaller{
+    background-color: rgba(0, 0, 0, 0.621);
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionTaller a{
+    font-size: 40px;
+    margin-right: 50px;
+}
+.sectionTaller img{
+    width: 30%;
+    border: 2px solid black;
+    margin:30px;
+}
+.tallerTercio1{
+    height: 40px;
+}
+.tallerTercio1 nav{
+width: 100%;
+}
+.tallerTercio1 nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.tallerTercio1 nav ul li a{
+    color: #FFFFFF;
+font-size: 30px;
+}
+.tallerTercio2{
+display: flex;
+margin-top: 10px;
+}
+.tallerTercio2 p{
+    text-align: center;
+    align-self: center;
+    color: #D6D6D6;
+    margin: 3px;
+    margin: 0px ;
+}
+.tallerTercio2 p a{
+    font-size: 25px;
+    color: #83c259;
+}
+.tallerForm{
+    display: flex;
+    width: 100%;
+}
+.tallerForm form{
+    margin: 2px;
+}
+.tallerForm label{
+    font-weight: bolder;
+    margin-left: 10px;
+}
+.tallerForm input{
+margin: 20px;
+}
+
+#textarea{
+    width: 200px;
+    height: 100px;
+    font-size: 15px;
+text-align: start;
+}
+.tallerForm img{
+width: 10%;
+align-self: center;
+margin: 0px 0px 30px 70px;
+}    
+
+/*Rodadas*/
+
+.sectionrodadas{
+    background-color: rgba(0, 0, 0, 0.621);
+    height: 100%;
+
+}
+.rodadasGasparini{
+    height: auto;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding: 10px 20px 20px 20px;
+}
+.rodadasGasparini h1{
+    font-size: 50px;
+    padding: 10px;
+}
+.rodadasGasparini img{
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.rodadasGasparini p{
+    margin: 20px 20px 10px 20px;
+    font-size: x-small;
+}
+
+.rodadasGasparini a{
+    font-size: 15px;
+    background-color: black;
+    padding: 5px;
+    border-radius: 20px;
+}
+.rodadasGasparini a:hover{
+    text-shadow: 0 0 10px #fff;
+}
+.rodadasRedes{
+    display: flex;
+    justify-content: center;
+}
+.rodadasRedes a{
+margin: 5px 10px;    
+background: none;
+font-size:small;
+color: azure;
+}
+.rodadasRedes a i:hover{
+    text-shadow: 0 0 10px #fff;    
+}
+.botonMasInfo a{
+    margin: 0px;
+}
+.rodadasmitad2 iframe{
+    width: 90%;
+    margin: 0px; 
+    border: 2px solid black;
+}
+.rodadasmitad2{
+    text-align: center;
+}
+.rodadasmitad2 h1{
+    font-size: 40px;
+    width: 30%;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    border: 2px solid black;
+}
+.rodadasmitad2 .proximasSalidas{
+    background-color: rgba(15, 15, 15, 0.411);
+    height: auto;
+    margin: 0px 20px 0px 20px;
+    padding-bottom: 10px;
+    border: 2px solid black;
+}
+.proximasSalidas h2{
+    font-size: 35px;
+    background-color: rgba(255, 255, 255, 0.443);
+color: #fff;}
+.proximasSalidas h3{
+    font-size: 25px;
+    background-color: #ffffff17;
+}
+.proximasSalidas p{
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.proximasSalidas a{
+    background-color: black;
+    padding: 5px;
+    font-size: 15px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 5px;
+}
+.rodadasmitad2 a:hover{
+    text-shadow: 0 0 10px #fff;
+}
+
+
+/*Nosotros*/
+.nosotros{
+    background-color: rgba(0, 0, 0, 0.621);
+
+}
+
+.nosotrostercio1 h1{
+    width: 175px;
+    font-size: 40px;
+    background-color: rgba(84, 84, 84, 0.553);
+    color: white;
+    text-shadow: 0 0 5px black;
+    text-align: center;
+}
+.agustin1, .agustin2{
+    display: block;
+    width: 70%;
+border-radius: 50%;
+border: 2px solid black;
+}
+.agustin1{
+    margin-left: 10px;
+    margin-top: 30px;
+    
+}
+.agustin2{
+    margin-left: 45%;
+    margin-top: -20%;
+    margin-bottom: 20px;
+}
+
+.nosotrostercio2{
+    width: 100%;
+text-align: center;
+}
+.nosotrostercio2 p{
+height: auto;
+width: 80%;
+padding: 30px;
+margin-top: 60px;
+margin-left: 60px;
+border: 2px solid black;
+color: #D6D6D6;
+}
+video{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+/*comienzan media query*/
+
+
+@media only screen and (min-width: 480px){
+    .nav{
+        display: none;
+    }
+    
+    .index div{
+        height: 300px;
+        width: auto;
+        line-height: 300px;
+       }
+    footer h5{
+        font-size: 16px;
+    }
+    .redesSociales a{
+        padding: 15px;
+    }
+    .conocenos{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 700px){
+    .nav{
+        display: block;
+    }
+    .menuu{
+        display: none;
+    }
+
+    
+    .index{
+        background-color: black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+   
+ .index div{
+    width: 45%;
+ }
+ .redesSociales a{
+    font-size: 30px;
+    padding: 20px;
+}
+.conocenos{
+    font-size: 20px;
+}
+}
+
