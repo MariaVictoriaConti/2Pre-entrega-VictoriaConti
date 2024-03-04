@@ -380,15 +380,18 @@ font-weight: bolder;font-size: 30px;
 .sillon{
     background-image: url(./imagenes/silloncafeteria.webp);
 }
-.bike{
+.taza{
 background-image: url(./icons/cafe.png);
+}
+.bici{
+    background-image: url(./icons/bike-variant.png);
 }
 @media only screen and (min-width:400px) {
     .sectionCafeOk{
         width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
         grid-template-areas: 
         "cafe cafe" 
         "amigos biker"
