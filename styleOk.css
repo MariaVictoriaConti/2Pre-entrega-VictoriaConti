@@ -333,42 +333,55 @@ width: 133px;
 
 /*CAfe ok*/
 .sectionCafeOk{
-    width: 100%;
+    background-color: black;
+    width: auto;
     display: grid;
     grid-template-areas: 
     "cafe cafe" 
-    "amigos biker"
-    "delicatessen delicatessen";
-    grid-template-columns: 50% 50%;
-    grid-template-rows: repeat(4, 1fr);
+    "cafe-bike cafe-bike"
+    "barra barra"
+    "bebidas bebidas"
+    "delicatessen delicatessen"
+    "amigos amigos"
+    "equipo equipo";
+    grid-template-columns:50% 50%;
+    grid-template-rows: repeat(4, 150px);
 }
 
 .cafe{   
 height: 150px;
-width: 100%;
-padding: 3px;
+width: auto;
+/*le quiero agregar espaciado entre img pero se me sale del margen derecho*/
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
-font-size: 30px;
+font-size: 38px;
 color: white;
 text-align: center;
 line-height: 150px;
 font-weight: bolder;
+border-radius: 20px;
+margin-bottom: 10px;
 }
 .cafe1{
     grid-area: cafe; 
 background-image: url(imagenes/coffee-2560260_1280.jpg);
 }
 
-.biker{
-    grid-area: biker;
-    background-image: url(./icons/biker.png);
+.cafe-bike{
+    grid-area: cafe-bike;
+    color: #FFFFFF;
 }
-.amigos{
-    grid-area: amigos;
+
+.barra{
+    grid-area: barra;
     background-image: url(./imagenes/barrabikeplace.webp);
     
+}
+
+.sillon{
+    grid-area: sillon;
+    background-image: url(./imagenes/silloncafeteria.webp);
 }
 
 .delicatessen{
@@ -377,26 +390,52 @@ background-image: url(./imagenes/medialuna2.webp);
 color: black;
 font-weight: bolder;font-size: 30px;
 }
-.sillon{
-    background-image: url(./imagenes/silloncafeteria.webp);
+
+.bebidas{
+    grid-area: bebidas;
+justify-content: center;}
+
+.equipo{
+    grid-area: equipo;
+background-image: url(./imagenes/equipoGasparini.jpg);
+filter: opacity(0.9);
 }
-.taza{
-background-image: url(./icons/cafe.png);
+
+.amigos{
+    grid-area: amigos;
 }
-.bici{
-    background-image: url(./icons/bike-variant.png);
+.espacio{
+    grid-area: espacio;
 }
-@media only screen and (min-width:400px) {
+@media only screen and (min-width:500px) {
     .sectionCafeOk{
-        width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas: 
+        "cafe cafe cafe-bike" 
+        "espacio barra barra"
+        "bebidas bebidas bebidas"
+        "delicatessen delicatessen sillon"
+        "amigos amigos amigos"
+        "equipo equipo equipo";
+    }
+    .cafe{
+        font-size: 40px;
+    }
+}
+@media only screen and (min-width:700px) {
+    .sectionCafeOk{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: repeat(3, 1fr);
         grid-template-areas: 
-        "cafe cafe" 
-        "amigos biker"
-        "delicatessen delicatessen";
-       
+        "cafe cafe-bike cafe-bike delicatessen"
+        "barra barra bebidas bebidas"
+        "amigos equipo equipo equipo";
+    }
+    .cafe{
+        font-size: 48px;
     }
 }
 
