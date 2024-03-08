@@ -620,18 +620,35 @@ color: #fff;}
 
 /*Nosotros*/
 .nosotros{
-    background-color: rgba(0, 0, 0, 0.621);
-
+    background-color: black;
+    --bs-gutter-x: 0 !important;
 }
-
-.nosotrostercio1 h1{
-    width: 175px;
-    font-size: 40px;
-    background-color: rgba(84, 84, 84, 0.553);
+.nosotros div h1{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 30px;
+    background-color: black;
     color: white;
+    font-weight: bolder;
     text-shadow: 0 0 5px black;
-    text-align: center;
 }
+#carouselExampleIndicators{
+    height: 300px;
+    border: 5px solid black;
+    background-position: center;
+    background-size: contain;
+     }
+    .carousel-inner{
+        height: 300px;
+    }
+    .carousel-item{
+    background-size: cover;
+    background-position: center;
+    }
+
+
+
+    
 .agustin1, .agustin2{
     display: block;
     width: 70%;
