@@ -44,7 +44,7 @@ a{
     text-decoration: none;
     font-size: 30px;
     font-weight: bolder;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     font-size: auto;
     letter-spacing: 2px;
 }
@@ -137,7 +137,7 @@ font-size: 20px;
     background-repeat: no-repeat;
     background-position: center;
     font-size: 10px;
-    color: white;
+    color: white !important;
     font-weight: bold;
     text-decoration: none;
     letter-spacing: 1px;
