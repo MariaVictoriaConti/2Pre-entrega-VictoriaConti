@@ -24,11 +24,36 @@ header{
     background-position: center;
 }
 .menuu{
+    width: 100px;
 font-size: 30px;
 color: white;
 margin-right: 10px;
+text-align: end;
+position: fixed;
+top: 5px;
+right: 10px;
 }
 
+
+.ulHamburguesa{
+    flex-direction: column;
+    width: 100%;
+    margin: 0px !important;
+    padding: 2px !important;
+    background-color: rgba(155, 2, 2, 0.317);
+    border: 2px solid black;
+}
+.liHambuguesa{
+padding: 0px !important;
+font-size: 5px !important;
+}
+.aHamburguesa{
+    font-size: 15px;
+}
+
+.menuu a ul{
+    display: block;
+}
 nav{
     width: 50%;
     height: auto;
@@ -421,7 +446,6 @@ font-size: 30px;
 }
 .tallerTercio2{
 display: flex;
-margin-top: 10px;
 }
 .tallerTercio2 p{
     font-size: 25px;
@@ -436,8 +460,8 @@ margin-top: 10px;
     color: #83c259;
 }
 .tallerForm{
-    display: flex;
     width: 100%;
+    text-align: center;
 }
 .tallerForm form{
     margin: 2px;
@@ -445,10 +469,10 @@ margin-top: 10px;
 .tallerForm label{
     color: #FFFFFF;
     font-weight: bolder;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 .tallerForm input{
-margin: 20px;
+margin: 5px;
 }
 
 #textarea{
@@ -644,10 +668,15 @@ video{
 
 /*comienzan media query*/
 
-
+@media only screen and (max-width:480px){
+    .nav{
+        display: none !important;
+    }
+    
+}
 @media only screen and (min-width: 480px){
     .nav{
-        display: none;
+        display: none !important;
     }
     
     .index div{
@@ -668,10 +697,10 @@ video{
 
 @media only screen and (min-width: 700px){
     .nav{
-        display: block;
+        display: block !important;
     }
     .menuu{
-        display: none;
+        display: none !important;
     }
 
     
