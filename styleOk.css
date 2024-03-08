@@ -29,7 +29,7 @@ font-size: 30px;
 color: white;
 margin-right: 10px;
 text-align: end;
-position: fixed;
+position: absolute;
 top: 5px;
 right: 10px;
 }
@@ -40,12 +40,13 @@ right: 10px;
     width: 100%;
     margin: 0px !important;
     padding: 2px !important;
-    background-color: rgba(155, 2, 2, 0.317);
+    background-color: rgba(250, 1, 1, 0.468);
     border: 2px solid black;
 }
 .liHambuguesa{
 padding: 0px !important;
 font-size: 5px !important;
+border: 2px solid black;
 }
 .aHamburguesa{
     font-size: 15px;
@@ -414,51 +415,63 @@ filter: opacity(0.9);
     background-color: black;
     display: flex;
     flex-direction: column;
+    --bs-gutter-x: opx;
 }
 
-.tallerTercio1{
-    height: 40px;
-}
+
 
 .sectionTaller img{
-    width: 40%;
+    width: 100%;
     border: 2px solid black;
-    margin:30px;
     background-size: cover;
     background-position: center;
 }
-.tallerTercio1{
-    height: 40px;
-}
-.tallerTercio1 nav{
-width: 100%;
-}
-.tallerTercio1 nav ul{
+.fotoTaller{
     width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 30px;
-    margin-bottom: 20px;
 }
-.tallerTercio1 nav ul li a{
-    color: #FFFFFF;
-font-size: 30px;
-}
-.tallerTercio2{
-display: flex;
-}
-.tallerTercio2 p{
+.taller1 p{
     font-size: 25px;
     text-align: center;
     align-self: center;
     color: #D6D6D6;
     margin: 3px;
-    margin: 0px;
+padding: 5px;
 }
-.tallerTercio2 p a{
+.taller1 p a{
     font-size: 25px;
-    color: #83c259;
+    color: #83c259 !important;
 }
+
+.form{
+    padding: 5px;
+    width: 60%;
+    align-self: center;
+}
+.form-control{
+    height: 10px !important;
+}
+
+.form-floating label{
+    padding: 3px !important;
+    font-weight: bolder;
+}
+.mb-3{
+    margin: 3px !important;
+    
+}
+.form-select{
+    font-weight: bolder;
+}
+.form-select option{
+    font-size: 15px !important;
+    font-weight: bolder;
+}
+.btn{
+    margin: 20px 0px;
+    font-weight: bolder;
+}
+
+
 .tallerForm{
     width: 100%;
     text-align: center;
@@ -487,8 +500,8 @@ align-self: center;
 margin: 0px 0px 30px 70px;
 }    
 
-@media only screen and (max-width:656px){
-    .tallerTercio2{
+@media only screen and (min-width:576){
+    .taller1{
 display: flex;
 flex-direction: column;   
 }

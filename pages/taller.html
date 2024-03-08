@@ -6,10 +6,14 @@
     <title>TheBikePlace</title>
     <script src="https://kit.fontawesome.com/553c807147.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="../icons/bike.png" type="image/x-icon">
-    <link rel="stylesheet" href="../styleOk.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+<!--inicia link BS-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!--fin link BS-->
+<link rel="stylesheet" href="../styleOk.css">
+
     
 </head>
 
@@ -29,16 +33,41 @@
         </nav>
     </header>
 
-    <section class="sectionTaller">
-        <!-- <div class="tallerTercio1">
-        <h1>Presupuestos</h1>
-    </div>  -->
-        <div class="tallerTercio2">
-        <img src="../imagenes/taller.jpg" alt="imgTaller">           
-            <p><strong>Contamos con el mejor asesoramiento para tu bike y trabajamos con repuestos nacionales e importados. nuestros expertos realizan los presupuestos en el dia y sin cargo! dejanos tus datos y un representante se pondra en contacto para pactar fecha y horario o escribinos al <a href="https://wa.me/543541315193" target="_blank">whatsapp.</a></strong>
-            </p>
+    <section class="sectionTaller row">
+
+        <div class="taller1 d-md-flex">
+            <div class="fotoTaller">
+                <img src="../imagenes/taller.jpg" alt="imgTaller">           
             </div>
-            <div class="tallerForm">
+            <div>
+                <p><strong>Contamos con el mejor asesoramiento para tu bike y trabajamos con repuestos nacionales e importados. nuestros expertos realizan los presupuestos en el dia y sin cargo! dejanos tus datos y un representante se pondra en contacto para pactar fecha y horario o escribinos al <a href="https://wa.me/543541315193" target="_blank">whatsapp.</a></strong>
+                </p>
+            </div>
+            
+            </div>
+<section class="form">
+                        <!--comienza form selecccionar-->
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Elegi una opcion</option>
+                            <option value="1">Presupuestos</option>
+                            <option value="2">Repuestos</option>
+                            <option value="3">Restauraciones</option>
+                          </select>
+                        <!--fin form selecccionar-->
+            <!--comienza formulario-->
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Nombre">
+                <label for="floatingInput">Nombre</label>
+              </div>
+              <div class="form-floating">
+                <input type="number" class="form-control" id="floatingTelefono" placeholder="Telefono">
+                <label for="floatingTelefono">Telefono</label>
+              </div>
+            <!--fin formulario-->
+
+            <button type="submit" class="btn btn-secondary">Enviar</button>
+        </section>
+            <!-- <div class="tallerForm">
                 <form action="">
                     <label for="">Nombre</label>
                     <input type="text">
@@ -48,8 +77,9 @@
                     <textarea name="areadetexto" id="textarea" cols="30" rows="10" placeholder="Necesito asesoramiento.."></textarea>
                     <input type="submit" value="Enviar" style="font-weight: bold;">
                 </form>
-                <img src="#" alt="iconoMecanico">
-            </div>
+            </div> -->
+          
+            
     
     </section>
 
@@ -67,6 +97,13 @@
     <a href="./nosotros.html" class="conocenos">Conocenos</a> 
 
     </footer>
+
+
+
+<!--inicio script BS-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<!--fin script BS-->
 
 </body>
 </html>
