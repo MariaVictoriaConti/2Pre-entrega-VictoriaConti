@@ -88,12 +88,11 @@ li a:hover{
 
 .index div{
     height: 150px;
-    width: 100%;
     border: 10px solid black;
     transition: all 0.9s;
 }
 .index div:hover{
-    transform: scale(1.03);
+    transform: scale(1.01);
 }
 .indexCafe, .indexRodadas, .indexTaller, .indexTienda{
     display: block;
