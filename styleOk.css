@@ -60,11 +60,21 @@ nav{
     width: 100%;
     display: none;
 }
+.navbar-nav{
+    align-items: flex-end;
+}
+
+
+.navbar-collapse{
+    background-color: rgb(10, 10, 10) ;
+position:fixed;
+top: 80px;
+right: 13px;
+}
 .navbar-brand img{
     height: 80px;
 }
-.nav-item{
-}
+
 .nav-link{
     font-size: 25px;
 }
@@ -743,3 +753,10 @@ video{
 }
 }
 
+@media only screen and (min-width: 768px){
+
+.navbar-collapse{
+    background-color:black;
+position: static;
+}
+}
