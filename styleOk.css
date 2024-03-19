@@ -1,8 +1,6 @@
-
-
-*{
+* {
     margin: 0;
-    padding: 0;    
+    padding: 0;
     font-family: "Amatic SC", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -56,35 +54,40 @@ border: 2px solid black;
     display: block;
 }
 */
-nav{
+
+nav {
     width: 100%;
     display: none;
 }
-.navbar-nav{
+
+.navbar-nav {
     align-items: flex-end;
 }
 
 
-.navbar-collapse{
-    background-color: rgb(10, 10, 10) ;
-position:fixed;
-top: 80px;
-right: 13px;
+.navbar-collapse {
+    background-color: rgb(10, 10, 10);
+    position: fixed;
+    top: 80px;
+    right: 13px;
 }
-.navbar-brand img{
+
+.navbar-brand img {
     height: 80px;
 }
 
-.nav-link{
+.nav-link {
     font-size: 25px;
 }
-ul{
+
+ul {
     width: 100%;
-    display: flex; 
-    justify-content: end;   
+    display: flex;
+    justify-content: end;
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
     font-size: 30px;
     font-weight: bolder;
@@ -92,66 +95,79 @@ a{
     font-size: auto;
     letter-spacing: 2px;
 }
-li{
+
+li {
     padding: 10px;
 }
-li a:hover{
-    text-shadow:rgb(204, 201, 201) -1px -1px;
+
+li a:hover {
+    text-shadow: rgb(204, 201, 201) -1px -1px;
 }
 
-.index{
+.index {
     display: grid;
     width: 100%;
 }
 
-.index div{
+.index div {
     height: 150px;
     border: 10px solid black;
     transition: all 0.9s;
 }
-.index div:hover{
+
+.index div:hover {
     transform: scale(1.01);
 }
-.indexCafe, .indexRodadas, .indexTaller, .indexTienda{
+
+.indexCafe,
+.indexRodadas,
+.indexTaller,
+.indexTienda {
     display: block;
     background-size: cover;
     background-position: center;
-    text-align: center;    
+    text-align: center;
     line-height: 150px;
 }
-.indexCafe{
+
+.indexCafe {
     background-image: url(./imagenes/cafe.jpg);
 }
-.indexRodadas{
+
+.indexRodadas {
     background-image: url(./imagenes/fondo2.jpg);
 }
-.indexTaller{
+
+.indexTaller {
     background-image: url(./imagenes/taller.jpg);
 }
-.indexTienda{
+
+.indexTienda {
     background-image: url(./imagenes/bicispared.webp);
 }
 
-.index div a{
-text-decoration: none;
-color: white;
-font-size: 40px;
-font-weight: bold;
+.index div a {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
 }
-.index div a:hover{
+
+.index div a:hover {
     text-shadow: 0 0 10px rgb(245, 244, 244);
 }
 
-footer{
+footer {
     height: 70px;
     width: 100%;
     background-color: black;
     display: flex;
     justify-content: space-between;
 }
-footer h5{
-   padding: 5px 2px;
-   margin-left: 5px;
+
+footer h5 {
+    padding: 5px 2px;
+    margin-left: 5px;
     color: #FFFFFF;
     font-size: 11px;
     font-weight: bolder;
@@ -159,21 +175,24 @@ footer h5{
     align-items: center;
 }
 
-.redesSociales{
+.redesSociales {
     display: block;
-text-align: center;
-line-height: 70px;
+    text-align: center;
+    line-height: 70px;
 }
-.redesSociales a{
-font-size: 20px;
+
+.redesSociales a {
+    font-size: 20px;
     color: white;
     padding: 3px;
 }
-.redesSociales a:hover{
+
+.redesSociales a:hover {
     text-shadow: 5px 5px 10px white,
-    -5px -5px 10px white;
+        -5px -5px 10px white;
 }
-.conocenos{
+
+.conocenos {
     width: 20%;
     background-image: url(./imagenes/logoreal2.png);
     background-size: contain;
@@ -189,12 +208,13 @@ font-size: 20px;
 
 /*Tienda*/
 
-.sectionTienda{
+.sectionTienda {
     background-color: black;
     display: flex;
     flex-direction: column;
 }
-.sectionTienda h1{
+
+.sectionTienda h1 {
     width: 228px;
     font-size: 40px;
     color: #FFFFFF;
@@ -203,232 +223,303 @@ font-size: 20px;
     padding: 2px;
     background-color: #151212;
 }
-#tablaTienda{
-text-align: center;
+
+#tablaTienda {
+    text-align: center;
 }
-th a, td a strong{
+
+th a,
+td a strong {
     font-size: 50px;
     color: #D6D6D6;
     font-weight: bolder;
 
 }
-td a strong:hover{
+
+td a strong:hover {
     text-shadow: 0 0 5px #FFFFFF;
-}
-th a:hover{
-    text-shadow: 0 0 5px #FFFFFF;
-}
-.imgTienda1, .imgTienda2, .imgTienda3{
-    width: 60%;
-text-align: center;
-opacity: 80%;
-border: 2px solid black;
-}
-.imgTienda2{
-margin-top: 20px;
-}
-.imgTienda3{
-margin-bottom: 15px;
 }
 
+th a:hover {
+    text-shadow: 0 0 5px #FFFFFF;
+}
+
+.imgTienda1,
+.imgTienda2,
+.imgTienda3 {
+    width: 60%;
+    text-align: center;
+    opacity: 80%;
+    border: 2px solid black;
+}
+
+.imgTienda2 {
+    margin-top: 20px;
+}
+
+.imgTienda3 {
+    margin-bottom: 15px;
+}
+
+
+/*TiendaBS*/
+.mainTienda{
+    background-color: black;
+}
+.row {
+    --bs-gutter-x: 0px;
+    margin-top: 10px;
+}
+.tienda{
+    text-align: center;
+    line-height: 100px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #FFFFFF;
+    
+}
+.bici{
+    background-image: url(./imagenes/bici1.jpg);
+    height: 100px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.accesorios{
+    background-image: url(./imagenes/casco1.jpg);
+    height: 100px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.indumentaria{
+    background-image: url(./imagenes/ropa1.webp);
+    height: 100px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+@media only screen and (min-width:500px) {
+    .tienda{
+    }
+    
+}
 
 /*secciones de Tienda*/
 
-.sectionProductos{
+.sectionProductos {
     background-color: rgba(0, 0, 0, 0.621);
     display: flex;
     flex-direction: column;
-    }
-    .tituloProductos{
-        display: block;
-        font-size: 40px;
-        color: #FFFFFF;
-        font-weight: bolder;
-        margin-left: 10px;
-        margin-top: 10px;
-        background-color: #020202;
-        width: 250px;
-        border-radius: 10px;
-        text-align: center;
-    }
-    .productos{
-        height: 100%;
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        
-    }
-    .card{
-        height: auto;
-        width: 250px;
-        border: 2px solid black;
-        background-color: rgba(207, 203, 203, 0.379);
-        padding: 10px;
-        text-align: center;
-        margin: 30px ;
-    }
-    .card h1{
-        font-size: 30px;
-        color: rgb(155, 2, 2);
-        text-shadow: 0 0 3px black;
-        margin-bottom: 10px;
-    }
-    .card img{
-        height: 150px;
-        width: 100%;
-        border: 1px solid black;
-        
-    }
-    .card p{
-        font-size: 20px;
-        margin-bottom: 15px;
-    }
-    
-    .card a{
-        width: 100%;
-        background-color: black;
-        font-size: 25px;
-        padding: 2px 5px;
-        text-decoration: none;
-        border-radius: 10px;
-        margin: 0px;
-    }
-    .card a:hover{
-        text-shadow: 0 0 9px #fff;
-    }
-    
-    .volverTienda{
-        width: 54px;
-        height: 25px;
-        background-color: rgba(155, 2, 2, 0.82);
-        font-size: 20px;
-        position: fixed;
-        bottom: 70px;
-        right: 0px;
-        border: 2px solid black;
-        margin-bottom: 17px;
-    }
-    .volverTienda:hover{
-        box-shadow: 0 0 15px rgb(255, 254, 254);
-    }
-    .ropa{
-        object-fit:contain;
-        background-color: white;
-    }
-    
+}
+
+.tituloProductos {
+    display: block;
+    font-size: 40px;
+    color: #FFFFFF;
+    font-weight: bolder;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #020202;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.productos {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    height: auto;
+    width: 250px;
+    border: 2px solid black;
+    background-color: rgba(207, 203, 203, 0.379);
+    padding: 10px;
+    text-align: center;
+    margin: 30px;
+}
+
+.card h1 {
+    font-size: 30px;
+    color: rgb(155, 2, 2);
+    text-shadow: 0 0 3px black;
+    margin-bottom: 10px;
+}
+
+.card img {
+    height: 150px;
+    width: 100%;
+    border: 1px solid black;
+
+}
+
+.card p {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.card a {
+    width: 100%;
+    background-color: black;
+    font-size: 25px;
+    padding: 2px 5px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 0px;
+}
+
+.card a:hover {
+    text-shadow: 0 0 9px #fff;
+}
+
+.volverTienda {
+    width: 54px;
+    height: 25px;
+    background-color: rgba(155, 2, 2, 0.82);
+    font-size: 20px;
+    position: fixed;
+    bottom: 70px;
+    right: 0px;
+    border: 2px solid black;
+    margin-bottom: 17px;
+}
+
+.volverTienda:hover {
+    box-shadow: 0 0 15px rgb(255, 254, 254);
+}
+
+.ropa {
+    object-fit: contain;
+    background-color: white;
+}
+
 
 /*CAfe ok*/
-.sectionCafeOk{
+.sectionCafeOk {
     background-color: black;
     width: auto;
     display: grid;
-    grid-template-areas: 
-    "cafe cafe" 
-    "cafe-bike cafe-bike"
-    "barra barra"
-    "bebidas bebidas"
-    "delicatessen delicatessen"
-    "amigos amigos"
-    "equipo equipo";
-    grid-template-columns:50% 50%;
+    grid-template-areas:
+        "cafe cafe"
+        "cafe-bike cafe-bike"
+        "barra barra"
+        "bebidas bebidas"
+        "delicatessen delicatessen"
+        "amigos amigos"
+        "equipo equipo";
+    grid-template-columns: 50% 50%;
     grid-template-rows: repeat(4, 150px);
 }
 
-.cafe{   
-height: 150px;
-width: auto;
-/*le quiero agregar espaciado entre img pero se me sale del margen derecho*/
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-font-size: 38px;
-color: white;
-text-align: center;
-line-height: 150px;
-font-weight: bolder;
-border-radius: 20px;
-margin-bottom: 10px;
-}
-.cafe1{
-    grid-area: cafe; 
-background-image: url(imagenes/coffee-2560260_1280.jpg);
+.cafe {
+    height: 150px;
+    width: auto;
+    /*le quiero agregar espaciado entre img pero se me sale del margen derecho*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 38px;
+    color: white;
+    text-align: center;
+    line-height: 150px;
+    font-weight: bolder;
+    border-radius: 20px;
+    margin-bottom: 10px;
 }
 
-.cafe-bike{
+.cafe1 {
+    grid-area: cafe;
+    background-image: url(imagenes/coffee-2560260_1280.jpg);
+}
+
+.cafe-bike {
     grid-area: cafe-bike;
     color: #FFFFFF;
 }
 
-.barra{
+.barra {
     grid-area: barra;
     background-image: url(./imagenes/barrabikeplace.webp);
-    
+
 }
 
-.sillon{
+.sillon {
     grid-area: sillon;
     background-image: url(./imagenes/silloncafeteria.webp);
 }
 
-.delicatessen{
+.delicatessen {
     grid-area: delicatessen;
-background-image: url(./imagenes/medialuna2.webp);
-color: black;
-font-weight: bolder;font-size: 30px;
+    background-image: url(./imagenes/medialuna2.webp);
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
 }
 
-.bebidas{
+.bebidas {
     grid-area: bebidas;
-justify-content: center;}
-
-.equipo{
-    grid-area: equipo;
-background-image: url(./imagenes/equipoGasparini.jpg);
-filter: opacity(0.9);
+    justify-content: center;
 }
 
-.amigos{
+.equipo {
+    grid-area: equipo;
+    background-image: url(./imagenes/equipoGasparini.jpg);
+    filter: opacity(0.9);
+}
+
+.amigos {
     grid-area: amigos;
 }
-.espacio{
+
+.espacio {
     grid-area: espacio;
 }
+
 @media only screen and (min-width:500px) {
-    .sectionCafeOk{
+    .sectionCafeOk {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: repeat(6, 1fr);
-        grid-template-areas: 
-        "cafe cafe cafe-bike" 
-        "espacio barra barra"
-        "bebidas bebidas bebidas"
-        "delicatessen delicatessen sillon"
-        "amigos amigos amigos"
-        "equipo equipo equipo";
+        grid-template-areas:
+            "cafe cafe cafe-bike"
+            "espacio barra barra"
+            "bebidas bebidas bebidas"
+            "delicatessen delicatessen sillon"
+            "amigos amigos amigos"
+            "equipo equipo equipo";
     }
-    .cafe{
+
+    .cafe {
         font-size: 40px;
     }
 }
+
 @media only screen and (min-width:700px) {
-    .sectionCafeOk{
+    .sectionCafeOk {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: repeat(3, 1fr);
-        grid-template-areas: 
-        "cafe cafe-bike cafe-bike delicatessen"
-        "barra barra bebidas bebidas"
-        "amigos equipo equipo equipo";
+        grid-template-areas:
+            "cafe cafe-bike cafe-bike delicatessen"
+            "barra barra bebidas bebidas"
+            "amigos equipo equipo equipo";
     }
-    .cafe{
+
+    .cafe {
         font-size: 48px;
     }
 }
 
 /*Taller*/
 
-.sectionTaller{
+.sectionTaller {
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -437,210 +528,247 @@ filter: opacity(0.9);
 
 
 
-.sectionTaller img{
+.sectionTaller img {
     width: 100%;
     border: 2px solid black;
     background-size: cover;
     background-position: center;
 }
-.fotoTaller{
+
+.fotoTaller {
     width: 100%;
 }
-.taller1 p{
+
+.taller1 p {
     font-size: 25px;
     text-align: center;
     align-self: center;
     color: #D6D6D6;
     margin: 3px;
-padding: 5px;
+    padding: 5px;
 }
-.taller1 p a{
+
+.taller1 p a {
     font-size: 25px;
     color: #83c259 !important;
 }
 
-.form{
+.form {
     padding: 5px;
     width: 60%;
     align-self: center;
 }
-.form-control{
+
+.form-control {
     height: 10px !important;
 }
 
-.form-floating label{
+.form-floating label {
     padding: 3px !important;
     font-weight: bolder;
 }
-.mb-3{
+
+.mb-3 {
     margin: 3px !important;
-    
+
 }
-.form-select{
+
+.form-select {
     font-weight: bolder;
 }
-.form-select option{
+
+.form-select option {
     font-size: 15px !important;
     font-weight: bolder;
 }
-.btn{
+
+.btn {
     margin: 20px 0px;
     font-weight: bolder;
 }
 
 
-.tallerForm{
+.tallerForm {
     width: 100%;
     text-align: center;
 }
-.tallerForm form{
+
+.tallerForm form {
     margin: 2px;
 }
-.tallerForm label{
+
+.tallerForm label {
     color: #FFFFFF;
     font-weight: bolder;
     margin-left: 5px;
 }
-.tallerForm input{
-margin: 5px;
+
+.tallerForm input {
+    margin: 5px;
 }
 
-#textarea{
+#textarea {
     width: 200px;
     height: 100px;
     font-size: 15px;
-text-align: start;
+    text-align: start;
 }
-.tallerForm img{
-width: 10%;
-align-self: center;
-margin: 0px 0px 30px 70px;
-}    
 
-@media only screen and (min-width:576){
-    .taller1{
-display: flex;
-flex-direction: column;   
+.tallerForm img {
+    width: 10%;
+    align-self: center;
+    margin: 0px 0px 30px 70px;
 }
-.sectionTaller img{
-    width: 100vw;
-    margin: 0px;
-    border: none;
-}
+
+@media only screen and (min-width:576) {
+    .taller1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sectionTaller img {
+        width: 100vw;
+        margin: 0px;
+        border: none;
+    }
 }
 
 
 /*Rodadas*/
 
-.sectionrodadas{
-    background-color: rgba(0, 0, 0, 0.621);
+.sectionrodadas {
+    background-color:black;
     height: 100%;
 
 }
-.rodadasGasparini{
+
+.rodadasGasparini {
     height: auto;
     border: 2px solid black;
     background-color: rgba(255, 255, 255, 0.5);
     text-align: center;
     padding: 10px 20px 20px 20px;
 }
-.rodadasGasparini h1{
+
+.rodadasGasparini h1 {
     font-size: 40px;
     padding: 10px;
+    font-weight: bolder;
+
 }
-.rodadasGasparini img{
+
+.rodadasGasparini img {
     width: 200px;
     border-radius: 50%;
     margin-bottom: 10px;
 }
-.rodadasGasparini p{
+
+.rodadasGasparini p {
     margin: 20px 20px 10px 20px;
     font-size: 20px;
 }
 
-.rodadasGasparini a{
+.rodadasGasparini a {
     font-size: 15px;
     background-color: black;
     padding: 5px;
     border-radius: 25px;
 }
-.rodadasGasparini a:hover{
+
+.rodadasGasparini a:hover {
     text-shadow: 0 0 10px #fff;
 }
-.rodadasRedes{
+
+.rodadasRedes {
     display: flex;
     justify-content: center;
 }
-.rodadasRedes a{
-margin: 5px 10px;    
-background: none;
-font-size:small;
-color: azure;
+
+.rodadasRedes a {
+    margin: 5px 10px;
+    background: none;
+    font-size: small;
+    color: azure;
 }
-.rodadasRedes a i:hover{
-    text-shadow: 0 0 10px #fff;    
+
+.rodadasRedes a i:hover {
+    text-shadow: 0 0 10px #fff;
 }
-.botonMasInfo a{
+
+.botonMasInfo a {
     margin: 0px;
 }
-.rodadasmitad2 iframe{
+
+.rodadasmitad2 iframe {
     width: 90%;
-    margin: 0px; 
+    margin: 0px;
     border: 2px solid black;
 }
-.rodadasmitad2{
+
+.rodadasmitad2 {
     text-align: center;
 }
-.rodadasmitad2 h1{
+
+.rodadasmitad2 h1 {
     font-size: 35px;
     width: 30%;
     margin-top: 30px;
     background-color: rgba(255, 255, 255, 0.5);
     text-align: center;
     border: 2px solid black;
+    font-weight: bolder;
 }
-.rodadasmitad2 .proximasSalidas{
+
+.rodadasmitad2 .proximasSalidas {
     background-color: rgba(15, 15, 15, 0.411);
     height: auto;
     margin: 0px 20px 0px 20px;
     padding-bottom: 10px;
     border: 2px solid black;
 }
-.proximasSalidas h2{
+
+.proximasSalidas h2 {
     font-size: 30px;
     background-color: rgba(255, 255, 255, 0.443);
-color: #fff;}
-.proximasSalidas h3{
-    font-size: 25px;
-    background-color: #ffffff17;
-}
-.proximasSalidas p{
-    font-size: 20px;
-    margin-bottom: 10px;
+    color: #fff;
 }
 
-.proximasSalidas a{
-    background-color: black;
+.proximasSalidas h3 {
+    font-size: 25px;
+    background-color: #ffffff17;
+    color: #FFFFFF;
+}
+
+.proximasSalidas p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+.proximasSalidas a {
+    background-color: rgb(78, 77, 77);
     padding: 5px;
     font-size: 15px;
     margin-right: 0px;
     margin-bottom: 10px;
     border-radius: 20px;
     padding: 5px;
+    
 }
-.rodadasmitad2 a:hover{
+
+.rodadasmitad2 a:hover {
     text-shadow: 0 0 10px #fff;
 }
 
 
 /*Nosotros BS*/
 
-.nosotros{
+.nosotros {
     background-color: black;
-     --bs-gutter-x: 0 !important;
+    --bs-gutter-x: 0 !important;
 }
 
-.nosotros div h1{
+.nosotros div h1 {
     margin-top: 15px;
     margin-left: 10px;
     font-size: 30px;
@@ -650,41 +778,48 @@ color: #fff;}
     text-shadow: 0 0 5px black;
 }
 
-#carouselExampleIndicators{
+#carouselExampleIndicators {
     height: 300px;
     border: 5px solid black;
     background-position: center;
     background-size: contain;
-     }
-    .carousel-inner{
-        height: 300px;
-    }
-    .carousel-item{
+}
+
+.carousel-inner {
+    height: 300px;
+}
+
+.carousel-item {
     background-size: cover;
     background-position: center;
-    }
-.nosotrostercio2{
-text-align: center;
 }
-.nosotrostercio2 p{
+
+.nosotrostercio2 {
     text-align: center;
-padding: 20px;
-border: 2px solid black;
-color: #D6D6D6;
-letter-spacing: 2px;
-word-spacing: 1px;
 }
-.nosotrostercio3{
-    
+
+.nosotrostercio2 p {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+    color: #D6D6D6;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+
+.nosotrostercio3 {
+
     text-align: center;
     padding: 10px;
 }
-.nosotrosrwecio3 p{
+
+.nosotrosrwecio3 p {
     padding: 10px;
     letter-spacing: 2px;
     word-spacing: 2px;
 }
-video{
+
+video {
     height: 400px;
 }
 
@@ -698,65 +833,72 @@ video{
 
 /*comienzan media query*/
 
-@media only screen and (max-width:480px){
-    .nav{
+@media only screen and (max-width:480px) {
+    .nav {
         display: none !important;
     }
-    
+
 }
-@media only screen and (min-width: 480px){
-    .nav{
+
+@media only screen and (min-width: 480px) {
+    .nav {
         display: none !important;
     }
-    
-    .index div{
+
+    .index div {
         height: 300px;
         width: auto;
         line-height: 300px;
-       }
-    footer h5{
+    }
+
+    footer h5 {
         font-size: 16px;
     }
-    .redesSociales a{
+
+    .redesSociales a {
         padding: 15px;
     }
-    .conocenos{
+
+    .conocenos {
         font-size: 15px;
     }
 }
 
-@media only screen and (min-width: 700px){
-    .nav{
+@media only screen and (min-width: 700px) {
+    .nav {
         display: block !important;
     }
-    .menuu{
+
+    .menuu {
         display: none !important;
     }
 
-    
-    .index{
+
+    .index {
         background-color: black;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-   
- .index div{
-    width: 45%;
- }
- .redesSociales a{
-    font-size: 30px;
-    padding: 20px;
-}
-.conocenos{
-    font-size: 20px;
-}
+
+    .index div {
+        width: 45%;
+    }
+
+    .redesSociales a {
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .conocenos {
+        font-size: 20px;
+    }
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
 
-.navbar-collapse{
-    background-color:black;
-position: static;
-}
+    .navbar-collapse {
+        background-color: black;
+        position: static;
+    }
 }
