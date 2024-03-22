@@ -18,8 +18,9 @@ nav {
 
 
 .navbar-collapse {
-    background-color: rgb(10, 10, 10);
-    position: fixed;
+    z-index: 1;
+    background-color: black;
+    position: absolute;
     top: 80px;
     right: 13px;
 }
@@ -232,33 +233,37 @@ footer h5 {
 
 
 /*TiendaBS*/
-.mainTienda{
+.mainTienda {
     background-color: black;
 }
+
 .row {
     --bs-gutter-x: 0px;
 }
-.tienda{
+
+.tienda {
     text-align: center;
     line-height: 100px;
-font-size: 30px;
+    font-size: 30px;
     font-weight: bolder;
     color: #FFFFFF;
-    
+
 }
 
 @media only screen and (min-width:500px) {
-    .tienda{
+    .tienda {
         height: 150px;
         line-height: 150px;
     }
-    .bici{
+
+    .bici {
         width: 50%;
     }
-    .accesorios{
+
+    .accesorios {
         width: 50%;
     }
-    
+
 }
 
 /*secciones de Tienda*/
@@ -516,9 +521,11 @@ font-size: 30px;
     width: 60%;
     align-self: center;
 }
+
 .form-select {
     font-weight: bolder;
 }
+
 .form-select option {
     font-size: 15px !important;
     font-weight: bolder;
@@ -527,6 +534,7 @@ font-size: 30px;
 .form-control {
     height: 10px !important;
 }
+
 .form-floating label {
     padding: 3px !important;
     font-weight: bolder;
@@ -535,6 +543,7 @@ font-size: 30px;
 .mb-3 {
     margin: 3px !important;
 }
+
 .btn {
     margin: 20px 0px;
     font-weight: bolder;
@@ -557,7 +566,7 @@ font-size: 30px;
 /*Rodadas*/
 
 .sectionrodadas {
-    background-color:black;
+    background-color: black;
     height: 100%;
 
 }
@@ -673,7 +682,7 @@ font-size: 30px;
     margin-bottom: 10px;
     border-radius: 20px;
     padding: 5px;
-    
+
 }
 
 .rodadasmitad2 a:hover {
@@ -742,4 +751,3 @@ font-size: 30px;
 video {
     height: 400px;
 }
-
