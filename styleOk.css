@@ -122,7 +122,7 @@ footer h5 {
     padding: 5px 2px;
     margin-left: 5px;
     color: #FFFFFF;
-    font-size: 11px;
+    font-size: 13px;
     font-weight: bolder;
     text-align: center;
     align-items: center;
@@ -236,7 +236,12 @@ footer h5 {
 .mainTienda {
     background-color: black;
 }
-
+.mainTienda div h1{
+    font-size: 40px;
+}
+.mainTienda div p{
+    font-size: 20px;
+}
 .row {
     --bs-gutter-x: 0px;
 }
@@ -503,7 +508,7 @@ footer h5 {
 }
 
 .taller1 p {
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     align-self: center;
     color: #D6D6D6;
@@ -512,7 +517,7 @@ footer h5 {
 }
 
 .taller1 p a {
-    font-size: 25px;
+    font-size: 35px;
     color: #83c259 !important;
 }
 
@@ -524,6 +529,7 @@ footer h5 {
 
 .form-select {
     font-weight: bolder;
+    font-size: 25px;
 }
 
 .form-select option {
@@ -538,6 +544,7 @@ footer h5 {
 .form-floating label {
     padding: 3px !important;
     font-weight: bolder;
+    font-size: 20px;
 }
 
 .mb-3 {
@@ -547,6 +554,7 @@ footer h5 {
 .btn {
     margin: 20px 0px;
     font-weight: bolder;
+    font-size: 20px;
 }
 
 @media only screen and (min-width:576) {
@@ -580,7 +588,7 @@ footer h5 {
 }
 
 .rodadasGasparini h1 {
-    font-size: 40px;
+    font-size: 45px;
     padding: 10px;
     font-weight: bolder;
 
@@ -594,11 +602,11 @@ footer h5 {
 
 .rodadasGasparini p {
     margin: 20px 20px 10px 20px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .rodadasGasparini a {
-    font-size: 15px;
+    font-size: 20px;
     background-color: black;
     padding: 5px;
     border-radius: 25px;
@@ -616,7 +624,7 @@ footer h5 {
 .rodadasRedes a {
     margin: 5px 10px;
     background: none;
-    font-size: small;
+    font-size: 30px;
     color: azure;
 }
 
@@ -657,19 +665,19 @@ footer h5 {
 }
 
 .proximasSalidas h2 {
-    font-size: 30px;
+    font-size: 35px;
     background-color: rgba(255, 255, 255, 0.443);
     color: #fff;
 }
 
 .proximasSalidas h3 {
-    font-size: 25px;
+    font-size: 30px;
     background-color: #ffffff17;
     color: #FFFFFF;
 }
 
 .proximasSalidas p {
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 10px;
     color: #FFFFFF;
 }
@@ -677,7 +685,7 @@ footer h5 {
 .proximasSalidas a {
     background-color: rgb(78, 77, 77);
     padding: 5px;
-    font-size: 15px;
+    font-size: 20px;
     margin-right: 0px;
     margin-bottom: 10px;
     border-radius: 20px;
