@@ -1,0 +1,123 @@
+.sectionrodadas {
+    background-color: black;
+    height: 100%;
+
+}
+
+.rodadasGasparini {
+    height: auto;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding: 10px 20px 20px 20px;
+}
+
+.rodadasGasparini h1 {
+    font-size: 45px;
+    padding: 10px;
+    font-weight: bolder;
+
+}
+
+.rodadasGasparini img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.rodadasGasparini p {
+    margin: 20px 20px 10px 20px;
+    font-size: 30px;
+}
+
+.rodadasGasparini a {
+    font-size: 20px;
+    background-color: black;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.rodadasGasparini a:hover {
+    text-shadow: 0 0 10px #fff;
+}
+
+.rodadasRedes {
+    display: flex;
+    justify-content: center;
+}
+
+.rodadasRedes a {
+    margin: 5px 10px;
+    background: none;
+    font-size: 30px;
+    color: azure;
+}
+
+.rodadasRedes a i:hover {
+    text-shadow: 0 0 10px #fff;
+}
+
+.botonMasInfo a {
+    margin: 0px;
+}
+
+.rodadasmitad2 iframe {
+    width: 90%;
+    margin: 0px;
+    border: 2px solid black;
+}
+
+.rodadasmitad2 {
+    text-align: center;
+}
+
+.rodadasmitad2 h1 {
+    font-size: 35px;
+    width: 30%;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    border: 2px solid black;
+    font-weight: bolder;
+}
+
+.rodadasmitad2 .proximasSalidas {
+    background-color: rgba(15, 15, 15, 0.411);
+    height: auto;
+    margin: 0px 20px 0px 20px;
+    padding-bottom: 10px;
+    border: 2px solid black;
+}
+
+.proximasSalidas h2 {
+    font-size: 35px;
+    background-color: rgba(255, 255, 255, 0.443);
+    color: #fff;
+}
+
+.proximasSalidas h3 {
+    font-size: 30px;
+    background-color: #ffffff17;
+    color: #FFFFFF;
+}
+
+.proximasSalidas p {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+.proximasSalidas a {
+    background-color: rgb(78, 77, 77);
+    padding: 5px;
+    font-size: 20px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+
+.rodadasmitad2 a:hover {
+    text-shadow: 0 0 10px #fff;
+}

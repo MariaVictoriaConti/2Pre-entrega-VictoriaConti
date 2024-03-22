@@ -1,0 +1,71 @@
+footer {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h5 {
+    padding: 5px 2px;
+    margin-left: 5px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bolder;
+    text-align: center;
+    align-items: center;
+}
+
+.redesSociales {
+    display: block;
+    text-align: center;
+    line-height: 70px;
+}
+
+.redesSociales a {
+    font-size: 20px;
+    color: white;
+    padding: 3px;
+}
+
+.redesSociales a:hover {
+    text-shadow: 5px 5px 10px white,
+        -5px -5px 10px white;
+}
+
+.conocenos {
+    width: 20%;
+    background-image: url(./imagenes/logoreal2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 10px;
+    color: white !important;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+@media only screen and (min-width: 480px) {
+    footer h5 {
+        font-size: 16px;
+    }
+
+    .redesSociales a {
+        padding: 15px;
+    }
+
+    .conocenos {
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width: 700px) {
+    .redesSociales a {
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .conocenos {
+        font-size: 20px;
+    }
+}
