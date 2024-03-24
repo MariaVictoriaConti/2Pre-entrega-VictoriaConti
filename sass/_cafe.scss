@@ -12,70 +12,61 @@
         "equipo equipo";
     grid-template-columns: 50% 50%;
     grid-template-rows: repeat(4, 150px);
-}
+    .cafe {
+        height: 150px;
+        width: auto;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        font-size: 38px;
+        color: white;
+        text-align: center;
+        line-height: 150px;
+        font-weight: bolder;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .cafe1 {
+        grid-area: cafe;
+        background-image: url(imagenes/coffee-2560260_1280.jpg);
+    }
+    .cafe-bike {
+        grid-area: cafe-bike;
+        color: #FFFFFF;
+    }
+    .delicatessen {
+        grid-area: delicatessen;
+        background-image: url(./imagenes/medialuna2.webp);
+        color: black;
+        font-weight: bolder;
+        font-size: 30px;
+    }
+    .bebidas {
+        grid-area: bebidas;
+        justify-content: center;
+    }
+    .barra {
+        grid-area: barra;
+        background-image: url(./imagenes/barrabikeplace.webp);
+    }
+    .amigos {
+        grid-area: amigos;
+    }
+    .equipo {
+        grid-area: equipo;
+        background-image: url(./imagenes/equipoGasparini.jpg);
+        filter: opacity(0.9);
+    }
+    .espacio {
+        grid-area: espacio;
+    }
+    .sillon {
+        grid-area: sillon;
+        background-image: url(./imagenes/silloncafeteria.webp);
+    }
+}  
 
-.cafe {
-    height: 150px;
-    width: auto;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    font-size: 38px;
-    color: white;
-    text-align: center;
-    line-height: 150px;
-    font-weight: bolder;
-    border-radius: 20px;
-    margin-bottom: 10px;
-}
 
-.cafe1 {
-    grid-area: cafe;
-    background-image: url(imagenes/coffee-2560260_1280.jpg);
-}
-
-.cafe-bike {
-    grid-area: cafe-bike;
-    color: #FFFFFF;
-}
-
-.barra {
-    grid-area: barra;
-    background-image: url(./imagenes/barrabikeplace.webp);
-
-}
-
-.sillon {
-    grid-area: sillon;
-    background-image: url(./imagenes/silloncafeteria.webp);
-}
-
-.delicatessen {
-    grid-area: delicatessen;
-    background-image: url(./imagenes/medialuna2.webp);
-    color: black;
-    font-weight: bolder;
-    font-size: 30px;
-}
-
-.bebidas {
-    grid-area: bebidas;
-    justify-content: center;
-}
-
-.equipo {
-    grid-area: equipo;
-    background-image: url(./imagenes/equipoGasparini.jpg);
-    filter: opacity(0.9);
-}
-
-.amigos {
-    grid-area: amigos;
-}
-
-.espacio {
-    grid-area: espacio;
-}
 
 /*media query CAFE*/
 @media only screen and (min-width:500px) {
@@ -90,10 +81,10 @@
             "delicatessen delicatessen sillon"
             "amigos amigos amigos"
             "equipo equipo equipo";
-    }
-
-    .cafe {
-        font-size: 40px;
+            
+            .cafe {
+                font-size: 40px;
+            }
     }
 }
 
@@ -106,9 +97,10 @@
             "cafe cafe-bike cafe-bike delicatessen"
             "barra barra bebidas bebidas"
             "amigos equipo equipo equipo";
-    }
 
-    .cafe {
-        font-size: 48px;
+            .cafe {
+                font-size: 48px;
+            }
     }
 }
+

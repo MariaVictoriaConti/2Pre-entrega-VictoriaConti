@@ -352,8 +352,7 @@ footer h5 {
   grid-template-columns: 50% 50%;
   grid-template-rows: repeat(4, 150px);
 }
-
-.cafe {
+.sectionCafeOk .cafe {
   height: 150px;
   width: auto;
   background-size: cover;
@@ -367,52 +366,43 @@ footer h5 {
   border-radius: 20px;
   margin-bottom: 10px;
 }
-
-.cafe1 {
+.sectionCafeOk .cafe1 {
   grid-area: cafe;
   background-image: url(imagenes/coffee-2560260_1280.jpg);
 }
-
-.cafe-bike {
+.sectionCafeOk .cafe-bike {
   grid-area: cafe-bike;
   color: #FFFFFF;
 }
-
-.barra {
-  grid-area: barra;
-  background-image: url(./imagenes/barrabikeplace.webp);
-}
-
-.sillon {
-  grid-area: sillon;
-  background-image: url(./imagenes/silloncafeteria.webp);
-}
-
-.delicatessen {
+.sectionCafeOk .delicatessen {
   grid-area: delicatessen;
   background-image: url(./imagenes/medialuna2.webp);
   color: black;
   font-weight: bolder;
   font-size: 30px;
 }
-
-.bebidas {
+.sectionCafeOk .bebidas {
   grid-area: bebidas;
   justify-content: center;
 }
-
-.equipo {
+.sectionCafeOk .barra {
+  grid-area: barra;
+  background-image: url(./imagenes/barrabikeplace.webp);
+}
+.sectionCafeOk .amigos {
+  grid-area: amigos;
+}
+.sectionCafeOk .equipo {
   grid-area: equipo;
   background-image: url(./imagenes/equipoGasparini.jpg);
   filter: opacity(0.9);
 }
-
-.amigos {
-  grid-area: amigos;
-}
-
-.espacio {
+.sectionCafeOk .espacio {
   grid-area: espacio;
+}
+.sectionCafeOk .sillon {
+  grid-area: sillon;
+  background-image: url(./imagenes/silloncafeteria.webp);
 }
 
 /*media query CAFE*/
@@ -423,7 +413,7 @@ footer h5 {
     grid-template-rows: repeat(6, 1fr);
     grid-template-areas: "cafe cafe cafe-bike" "espacio barra barra" "bebidas bebidas bebidas" "delicatessen delicatessen sillon" "amigos amigos amigos" "equipo equipo equipo";
   }
-  .cafe {
+  .sectionCafeOk .cafe {
     font-size: 40px;
   }
 }
@@ -434,7 +424,7 @@ footer h5 {
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas: "cafe cafe-bike cafe-bike delicatessen" "barra barra bebidas bebidas" "amigos equipo equipo equipo";
   }
-  .cafe {
+  .sectionCafeOk .cafe {
     font-size: 48px;
   }
 }
