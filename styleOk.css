@@ -68,21 +68,27 @@ nav div.container-fluid a.navbar-brand img {
   display: grid;
   width: 100%;
 }
-
 .index div {
   height: 150px;
   border: 10px solid black;
   transition: all 0.9s;
 }
-
 .index div:hover {
   transform: scale(1.01);
 }
-
-.indexCafe,
-.indexRodadas,
-.indexTaller,
-.indexTienda {
+.index div a {
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+.index div a:hover {
+  text-shadow: 0 0 10px rgb(245, 244, 244);
+}
+.index .indexCafe,
+.index .indexRodadas,
+.index .indexTaller,
+.index .indexTienda {
   display: block;
   background-size: cover;
   background-position: center;
@@ -106,22 +112,11 @@ nav div.container-fluid a.navbar-brand img {
   background-image: url(./imagenes/bicispared.webp);
 }
 
-.index div a {
-  text-decoration: none;
-  color: white;
-  font-size: 40px;
-  font-weight: bold;
-}
-
-.index div a:hover {
-  text-shadow: 0 0 10px rgb(245, 244, 244);
-}
-
 @media only screen and (min-width: 480px) {
   .index div {
     height: 300px;
     width: auto;
-    line-height: 300px;
+    line-height: 300px !important;
   }
 }
 @media only screen and (min-width: 700px) {
