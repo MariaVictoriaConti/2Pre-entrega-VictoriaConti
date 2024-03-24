@@ -4,9 +4,18 @@ footer {
     background-color: black;
     display: flex;
     justify-content: space-between;
+    h5 {
+        padding: 5px 2px;
+        margin-left: 5px;
+        color: #FFFFFF;
+        font-size: 13px;
+        font-weight: bolder;
+        text-align: center;
+        align-items: center;
+    }
 }
 
-footer h5 {
+/*footer h5 {
     padding: 5px 2px;
     margin-left: 5px;
     color: #FFFFFF;
@@ -14,24 +23,33 @@ footer h5 {
     font-weight: bolder;
     text-align: center;
     align-items: center;
-}
+}*/
 
 .redesSociales {
     display: block;
     text-align: center;
     line-height: 70px;
+    a {
+        font-size: 20px;
+        color: white;
+        padding: 3px;
+        &:hover {
+            text-shadow: 5px 5px 10px white,
+                -5px -5px 10px white;
+        }
+    }
 }
 
-.redesSociales a {
+/*.redesSociales a {
     font-size: 20px;
     color: white;
     padding: 3px;
-}
+}*/
 
-.redesSociales a:hover {
+/*.redesSociales a:hover {
     text-shadow: 5px 5px 10px white,
         -5px -5px 10px white;
-}
+}*/
 
 .conocenos {
     width: 20%;
