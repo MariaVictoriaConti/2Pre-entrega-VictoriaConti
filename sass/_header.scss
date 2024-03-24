@@ -1,46 +1,49 @@
 nav {
     width: 100%;
     display: none;
+
+    div.container-fluid {
+
+        a.navbar-brand img {
+            height: 80px;
+        }
+
+    }
 }
-.navbar-nav {
-    align-items: flex-end;
-}
+
 .navbar-collapse {
     z-index: 1;
     background-color: black;
     position: absolute;
     top: 80px;
     right: 13px;
-}
-.navbar-brand img {
-    height: 80px;
-}
-.nav-link {
-    font-size: 25px;
-}
 
-ul {
-    width: 100%;
-    display: flex;
-    justify-content: end;
-    list-style: none;
-}
+    ul {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        list-style: none;
+        align-items: flex-end;
 
-a {
-    text-decoration: none;
-    font-size: 30px;
-    font-weight: bolder;
-    color: #FFFFFF !important;
-    font-size: auto;
-    letter-spacing: 2px;
-}
+        li {
+            padding: 10px;
 
-li {
-    padding: 10px;
-}
+            &:hover {
+                text-shadow: rgb(204, 201, 201) -1px -1px;
 
-li a:hover {
-    text-shadow: rgb(204, 201, 201) -1px -1px;
+            }
+
+            a {
+                text-decoration: none;
+                font-size: 30px;
+                font-weight: bolder;
+                color: #FFFFFF !important;
+                font-size: auto;
+                letter-spacing: 2px;
+            }
+        }
+
+    }
 }
 
 @media only screen and (max-width:480px) {
@@ -55,11 +58,13 @@ li a:hover {
         display: none !important;
     }
 }
+
 @media only screen and (min-width: 700px) {
     .nav {
         display: block !important;
     }
 }
+
 @media only screen and (min-width: 768px) {
 
     .navbar-collapse {
