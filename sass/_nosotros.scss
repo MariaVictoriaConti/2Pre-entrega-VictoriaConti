@@ -1,9 +1,54 @@
 .nosotros {
     background-color: black;
     --bs-gutter-x: 0 !important;
+    div h1{
+        margin-top: 15px;
+        margin-left: 10px;
+        font-size: 30px;
+        background-color: black;
+        color: white;
+        font-weight: bolder;
+        text-shadow: 0 0 5px black;
+    }
+    #carouselExampleIndicators {
+        height: 300px;
+        border: 5px solid black;
+        background-position: center;
+        background-size: contain;
+        .carousel-inner {
+            height: 300px;
+            .carousel-item {
+                background-size: cover;
+                background-position: center;
+            }
+        }
+    }
+    .nosotrostercio2 {
+        text-align: center;
+        p {
+            text-align: center;
+            padding: 20px;
+            border: 2px solid black;
+            color: #D6D6D6;
+            letter-spacing: 2px;
+            word-spacing: 1px;
+        }
+    }
+    .nosotrostercio3 {
+        text-align: center;
+        padding: 10px;
+        p {
+            padding: 10px;
+            letter-spacing: 2px;
+            word-spacing: 2px;
+        }
+        video {
+            height: 400px;
+        }
+    }
 }
 
-.nosotros div h1 {
+/*.nosotros div h1 {
     margin-top: 15px;
     margin-left: 10px;
     font-size: 30px;
@@ -11,49 +56,49 @@
     color: white;
     font-weight: bolder;
     text-shadow: 0 0 5px black;
-}
+}*/
 
-#carouselExampleIndicators {
+/*#carouselExampleIndicators {
     height: 300px;
     border: 5px solid black;
     background-position: center;
     background-size: contain;
-}
+}*/
 
-.carousel-inner {
+/*.carousel-inner {
     height: 300px;
-}
+}*/
 
-.carousel-item {
+/*.carousel-item {
     background-size: cover;
     background-position: center;
-}
+}*/
 
-.nosotrostercio2 {
+/*.nosotrostercio2 {
     text-align: center;
-}
+}*/
 
-.nosotrostercio2 p {
+/*.nosotrostercio2 p {
     text-align: center;
     padding: 20px;
     border: 2px solid black;
     color: #D6D6D6;
     letter-spacing: 2px;
     word-spacing: 1px;
-}
+}*/
 
-.nosotrostercio3 {
+/*.nosotrostercio3 {
 
     text-align: center;
     padding: 10px;
-}
+}*/
 
-.nosotrosrwecio3 p {
+/*.nosotrosrwecio3 p {
     padding: 10px;
     letter-spacing: 2px;
     word-spacing: 2px;
-}
+}*/
 
-video {
+/*video {
     height: 400px;
-}
+}*/
