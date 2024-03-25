@@ -2,122 +2,125 @@
     background-color: black;
     height: 100%;
 
-}
+    .rodadasGasparini {
+        height: auto;
+        border: 2px solid black;
+        background-color: rgba(255, 255, 255, 0.5);
+        text-align: center;
+        padding: 10px 20px 20px 20px;
 
-.rodadasGasparini {
-    height: auto;
-    border: 2px solid black;
-    background-color: rgba(255, 255, 255, 0.5);
-    text-align: center;
-    padding: 10px 20px 20px 20px;
-}
+        h1 {
+            font-size: 45px;
+            padding: 10px;
+            font-weight: bolder;
+        }
 
-.rodadasGasparini h1 {
-    font-size: 45px;
-    padding: 10px;
-    font-weight: bolder;
+        img {
+            width: 200px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
 
-}
+        p {
+            margin: 20px 20px 10px 20px;
+            font-size: 30px;
+        }
 
-.rodadasGasparini img {
-    width: 200px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
+        a {
+            text-decoration: none;
+            font-size: 20px;
+            background-color: black;
+            color: #FFFFFF;
+            font-weight: bolder;
+            padding: 5px;
+            border-radius: 25px;
 
-.rodadasGasparini p {
-    margin: 20px 20px 10px 20px;
-    font-size: 30px;
-}
+            &:hover {
+                text-shadow: 0 0 10px #fff;
+            }
+        }
 
-.rodadasGasparini a {
-    font-size: 20px;
-    background-color: black;
-    padding: 5px;
-    border-radius: 25px;
-}
+        .rodadasRedes {
+            display: flex;
+            justify-content: center;
 
-.rodadasGasparini a:hover {
-    text-shadow: 0 0 10px #fff;
-}
+            a {
+                margin: 5px 10px;
+                background: none;
+                font-size: 30px;
+                color: azure;
 
-.rodadasRedes {
-    display: flex;
-    justify-content: center;
-}
+                i:hover {
+                    text-shadow: 0 0 10px #fff;
+                }
+            }
+        }
 
-.rodadasRedes a {
-    margin: 5px 10px;
-    background: none;
-    font-size: 30px;
-    color: azure;
-}
+        .botonMasInfo a {
+            margin: 0px;
+        }
+    }
 
-.rodadasRedes a i:hover {
-    text-shadow: 0 0 10px #fff;
-}
+    .rodadasmitad2 {
+        text-align: center;
 
-.botonMasInfo a {
-    margin: 0px;
-}
+        iframe {
+            width: 90%;
+            margin: 0px;
+            border: 2px solid black;
+        }
 
-.rodadasmitad2 iframe {
-    width: 90%;
-    margin: 0px;
-    border: 2px solid black;
-}
+        h1 {
+            font-size: 35px;
+            width: 30%;
+            margin-top: 30px;
+            background-color: rgba(255, 255, 255, 0.5);
+            text-align: center;
+            border: 2px solid black;
+            font-weight: bolder;
+        }
 
-.rodadasmitad2 {
-    text-align: center;
-}
+        .proximasSalidas {
+            background-color: rgba(15, 15, 15, 0.411);
+            height: auto;
+            margin: 0px 20px 0px 20px;
+            padding-bottom: 10px;
+            border: 2px solid black;
 
-.rodadasmitad2 h1 {
-    font-size: 35px;
-    width: 30%;
-    margin-top: 30px;
-    background-color: rgba(255, 255, 255, 0.5);
-    text-align: center;
-    border: 2px solid black;
-    font-weight: bolder;
-}
+            h2 {
+                font-size: 35px;
+                background-color: rgba(255, 255, 255, 0.443);
+                color: #fff;
+            }
 
-.rodadasmitad2 .proximasSalidas {
-    background-color: rgba(15, 15, 15, 0.411);
-    height: auto;
-    margin: 0px 20px 0px 20px;
-    padding-bottom: 10px;
-    border: 2px solid black;
-}
+            h3 {
+                font-size: 30px;
+                background-color: #ffffff17;
+                color: #FFFFFF;
+            }
 
-.proximasSalidas h2 {
-    font-size: 35px;
-    background-color: rgba(255, 255, 255, 0.443);
-    color: #fff;
-}
+            p {
+                font-size: 25px;
+                margin-bottom: 10px;
+                color: #FFFFFF;
+            }
 
-.proximasSalidas h3 {
-    font-size: 30px;
-    background-color: #ffffff17;
-    color: #FFFFFF;
-}
+            a {
+                text-decoration: none;
+                color: #FFFFFF;
+                background-color: rgb(78, 77, 77);
+                padding: 5px;
+                font-weight: bolder;
+                font-size: 20px;
+                margin-right: 0px;
+                margin-bottom: 10px;
+                border-radius: 20px;
+                padding: 5px;
 
-.proximasSalidas p {
-    font-size: 25px;
-    margin-bottom: 10px;
-    color: #FFFFFF;
-}
-
-.proximasSalidas a {
-    background-color: rgb(78, 77, 77);
-    padding: 5px;
-    font-size: 20px;
-    margin-right: 0px;
-    margin-bottom: 10px;
-    border-radius: 20px;
-    padding: 5px;
-
-}
-
-.rodadasmitad2 a:hover {
-    text-shadow: 0 0 10px #fff;
+                &:hover {
+                    text-shadow: 0 0 10px #fff;
+                }
+            }
+        }
+    }
 }
