@@ -433,19 +433,13 @@ footer h5 {
   flex-direction: column;
   --bs-gutter-x: opx;
 }
-
 .sectionTaller img {
   width: 100%;
   border: 2px solid black;
   background-size: cover;
   background-position: center;
 }
-
-.fotoTaller {
-  width: 100%;
-}
-
-.taller1 p {
+.sectionTaller .taller1 p {
   font-size: 35px;
   text-align: center;
   align-self: center;
@@ -453,59 +447,43 @@ footer h5 {
   margin: 3px;
   padding: 5px;
 }
-
-.taller1 p a {
+.sectionTaller .taller1 p a {
   font-size: 35px;
   color: #83c259 !important;
 }
-
-.form {
+.sectionTaller .taller1 .fotoTaller {
+  width: 100%;
+}
+.sectionTaller .form {
   padding: 5px;
   width: 60%;
   align-self: center;
 }
-
-.form-select {
+.sectionTaller .form .form-select {
   font-weight: bolder;
   font-size: 25px;
 }
-
-.form-select option {
+.sectionTaller .form .form-select option {
   font-size: 15px !important;
   font-weight: bolder;
 }
-
-.form-control {
+.sectionTaller .form .mb-3 {
+  margin: 3px !important;
+}
+.sectionTaller .form .form-floating .form-control {
   height: 10px !important;
 }
-
-.form-floating label {
+.sectionTaller .form .form-floating label {
   padding: 3px !important;
   font-weight: bolder;
   font-size: 20px;
 }
-
-.mb-3 {
-  margin: 3px !important;
-}
-
-.btn {
+.sectionTaller .form .btn {
   margin: 20px 0px;
   font-weight: bolder;
   font-size: 20px;
 }
 
-@media only screen and (min-width: 576) {
-  .taller1 {
-    display: flex;
-    flex-direction: column;
-  }
-  .sectionTaller img {
-    width: 100vw;
-    margin: 0px;
-    border: none;
-  }
-}
 .sectionrodadas {
   background-color: black;
   height: 100%;

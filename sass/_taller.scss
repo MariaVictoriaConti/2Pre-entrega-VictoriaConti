@@ -3,79 +3,70 @@
     display: flex;
     flex-direction: column;
     --bs-gutter-x: opx;
-}
 
-.sectionTaller img {
-    width: 100%;
-    border: 2px solid black;
-    background-size: cover;
-    background-position: center;
-}
+    img {
+        width: 100%;
+        border: 2px solid black;
+        background-size: cover;
+        background-position: center;
+    }
 
-.fotoTaller {
-    width: 100%;
-}
-
-.taller1 p {
-    font-size: 35px;
-    text-align: center;
-    align-self: center;
-    color: #D6D6D6;
-    margin: 3px;
-    padding: 5px;
-}
-
-.taller1 p a {
-    font-size: 35px;
-    color: #83c259 !important;
-}
-
-.form {
-    padding: 5px;
-    width: 60%;
-    align-self: center;
-}
-
-.form-select {
-    font-weight: bolder;
-    font-size: 25px;
-}
-
-.form-select option {
-    font-size: 15px !important;
-    font-weight: bolder;
-}
-
-.form-control {
-    height: 10px !important;
-}
-
-.form-floating label {
-    padding: 3px !important;
-    font-weight: bolder;
-    font-size: 20px;
-}
-
-.mb-3 {
-    margin: 3px !important;
-}
-
-.btn {
-    margin: 20px 0px;
-    font-weight: bolder;
-    font-size: 20px;
-}
-
-@media only screen and (min-width:576) {
     .taller1 {
-        display: flex;
-        flex-direction: column;
+        p {
+            font-size: 35px;
+            text-align: center;
+            align-self: center;
+            color: #D6D6D6;
+            margin: 3px;
+            padding: 5px;
+
+            a {
+                font-size: 35px;
+                color: #83c259 !important;
+            }
+        }
+
+        .fotoTaller {
+            width: 100%;
+        }
     }
 
-    .sectionTaller img {
-        width: 100vw;
-        margin: 0px;
-        border: none;
+    .form {
+        padding: 5px;
+        width: 60%;
+        align-self: center;
+
+        .form-select {
+            font-weight: bolder;
+            font-size: 25px;
+
+            option {
+                font-size: 15px !important;
+                font-weight: bolder;
+            }
+        }
+
+        .mb-3 {
+            margin: 3px !important;
+        }
+
+        .form-floating {
+
+            .form-control {
+                height: 10px !important;
+            }
+
+            label {
+                padding: 3px !important;
+                font-weight: bolder;
+                font-size: 20px;
+            }
+        }
+
+        .btn {
+            margin: 20px 0px;
+            font-weight: bolder;
+            font-size: 20px;
+        }
     }
 }
-
