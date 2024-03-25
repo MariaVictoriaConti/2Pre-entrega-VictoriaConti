@@ -1,5 +1,5 @@
 .sectionrodadas {
-    background-color: black;
+    background-color: $bg-principal;
     height: 100%;
 
     .rodadasGasparini {
@@ -24,20 +24,21 @@
         p {
             margin: 20px 20px 10px 20px;
             font-size: 30px;
-        }
+    }
 
-        a {
+     a {
             text-decoration: none;
             font-size: 20px;
-            background-color: black;
-            color: #FFFFFF;
+            background-color: $bg-principal;
+            color: $color;
             font-weight: bolder;
             padding: 5px;
             border-radius: 25px;
 
             &:hover {
-                text-shadow: 0 0 10px #fff;
+                text-shadow: 0 0 10px $color;
             }
+}
         }
 
         .rodadasRedes {
@@ -48,10 +49,10 @@
                 margin: 5px 10px;
                 background: none;
                 font-size: 30px;
-                color: azure;
+                color: $color;
 
                 i:hover {
-                    text-shadow: 0 0 10px #fff;
+                    text-shadow: 0 0 10px $color;
                 }
             }
         }
@@ -79,7 +80,7 @@
             border: 2px solid black;
             font-weight: bolder;
         }
-
+    
         .proximasSalidas {
             background-color: rgba(15, 15, 15, 0.411);
             height: auto;
@@ -90,24 +91,24 @@
             h2 {
                 font-size: 35px;
                 background-color: rgba(255, 255, 255, 0.443);
-                color: #fff;
+                color: $color;
             }
 
             h3 {
                 font-size: 30px;
                 background-color: #ffffff17;
-                color: #FFFFFF;
+                color: $color;
             }
 
             p {
                 font-size: 25px;
                 margin-bottom: 10px;
-                color: #FFFFFF;
+                color: $color;
             }
 
             a {
                 text-decoration: none;
-                color: #FFFFFF;
+                color: $color;
                 background-color: rgb(78, 77, 77);
                 padding: 5px;
                 font-weight: bolder;
@@ -123,4 +124,3 @@
             }
         }
     }
-}

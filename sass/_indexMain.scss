@@ -14,7 +14,7 @@
 
         a {
             text-decoration: none;
-            color: white;
+            color: $color;
             font-size: 40px;
             font-weight: bold;
 
@@ -64,7 +64,7 @@
 
 @media only screen and (min-width: 700px) {
     .index {
-        background-color: black;
+        background-color: $bg-principal;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;

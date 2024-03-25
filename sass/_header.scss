@@ -13,7 +13,7 @@ nav {
 
 .navbar-collapse {
     z-index: 1;
-    background-color: black;
+    background-color: $bg-principal;
     position: absolute;
     top: 80px;
     right: 13px;
@@ -37,7 +37,7 @@ nav {
                 text-decoration: none;
                 font-size: 30px;
                 font-weight: bolder;
-                color: #FFFFFF !important;
+                color: $color !important;
                 font-size: auto;
                 letter-spacing: 2px;
             }
@@ -68,7 +68,7 @@ nav {
 @media only screen and (min-width: 768px) {
 
     .navbar-collapse {
-        background-color: black;
+        background-color: $bg-principal;
         position: static;
     }
 }
