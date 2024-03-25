@@ -2,95 +2,99 @@
     background-color: black;
     display: flex;
     flex-direction: column;
-}
 
-.tituloProductos {
-    display: block;
-    font-size: 40px;
-    color: #FFFFFF;
-    font-weight: bolder;
-    margin-left: 10px;
-    margin-top: 10px;
-    background-color: rgba(111, 109, 109, 0.396);
-    width: 250px;
-    border-radius: 10px;
-    text-align: center;
-}
+    .tituloProductos {
+        display: block;
+        font-size: 40px;
+        color: #FFFFFF;
+        font-weight: bolder;
+        margin-left: 10px;
+        margin-top: 10px;
+        background-color: rgba(111, 109, 109, 0.396);
+        width: 250px;
+        border-radius: 10px;
+        text-align: center;
+    }
 
-.productos {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    .productos {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
 
-}
+        .card {
+            height: auto;
+            width: 250px;
+            border: 2px solid black;
+            background-color: rgba(207, 203, 203, 0.379);
+            padding: 10px;
+            text-align: center;
+            margin: 30px;
 
-.card {
-    height: auto;
-    width: 250px;
-    border: 2px solid black;
-    background-color: rgba(207, 203, 203, 0.379);
-    padding: 10px;
-    text-align: center;
-    margin: 30px;
-}
+            h1 {
+                font-size: 30px;
+                color: rgb(155, 2, 2);
+                text-shadow: 0 0 3px black;
+                margin-bottom: 10px;
+                font-weight: bolder;
+            }
 
-.card h1 {
-    font-size: 30px;
-    color: rgb(155, 2, 2);
-    text-shadow: 0 0 3px black;
-    margin-bottom: 10px;
-    font-weight: bolder;
-}
+            img {
+                height: 150px;
+                width: 100%;
+                border: 1px solid black;
+            }
 
-.card img {
-    height: 150px;
-    width: 100%;
-    border: 1px solid black;
+            p {
+                font-size: 20px;
+                margin-bottom: 15px;
+                font-weight: bolder;
+                color: #FFFFFF;
+            }
 
-}
+            a {
+                width: 100%;
+                text-decoration: none;
+                color: #FFFFFF;
+                font-weight: bolder;
+                background-color: black;
+                font-size: 25px;
+                padding: 2px 5px;
+                text-decoration: none;
+                border-radius: 10px;
+                margin: 0px;
 
-.card p {
-    font-size: 20px;
-    margin-bottom: 15px;
-    font-weight: bolder;
-    color: #FFFFFF;
-}
+                &:hover {
+                    text-shadow: 0 0 9px #fff;
+                }
+            }
 
-.card a {
-    width: 100%;
-    background-color: black;
-    font-size: 25px;
-    padding: 2px 5px;
-    text-decoration: none;
-    border-radius: 10px;
-    margin: 0px;
-}
+            .ropa {
+                object-fit: contain;
+                background-color: white;
+            }
+        }
 
-.card a:hover {
-    text-shadow: 0 0 9px #fff;
-}
+        .volverTienda {
+            color: #FFFFFF;
+            text-decoration: none;
+            font-weight: bolder;
+            width: 54px;
+            height: 30px;
+            line-height: 30px;
+            background-color: rgba(155, 2, 2, 0.82);
+            font-size: 20px;
+            position: fixed;
+            bottom: 70px;
+            right: 0px;
+            border: 2px solid black;
+            margin-bottom: 17px;
+            margin-right: 2px;
 
-.volverTienda {
-    width: 54px;
-    height: 30px;
-    line-height: 30px;
-    background-color: rgba(155, 2, 2, 0.82);
-    font-size: 20px;
-    position: fixed;
-    bottom: 70px;
-    right: 0px;
-    border: 2px solid black;
-    margin-bottom: 17px;
-    margin-right: 2px;
-}
-
-.volverTienda:hover {
-    box-shadow: 0 0 15px rgb(255, 254, 254);
-}
-
-.ropa {
-    object-fit: contain;
-    background-color: white;
+            &:hover {
+                box-shadow: 0 0 15px rgb(255, 254, 254);
+            }
+        }
+    }
 }
