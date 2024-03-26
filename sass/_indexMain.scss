@@ -5,7 +5,7 @@
 
 @each $img in imgCafe, imgRodadas, imgTaller, imgTienda {
     .#{$img}-icon {
-        background-image: url("./imagenes/#{$img}.jpg");
+        background-image: url("../imagenes/#{$img}.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
