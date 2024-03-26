@@ -538,7 +538,7 @@ footer h5 {
 .sectionrodadas .rodadasGasparini {
   height: auto;
   border: 2px solid black;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-image: linear-gradient(to bottom, black, grey);
   text-align: center;
   padding: 10px 20px 20px 20px;
 }
@@ -546,6 +546,7 @@ footer h5 {
   font-size: 45px;
   padding: 10px;
   font-weight: bolder;
+  color: #ffffff;
 }
 .sectionrodadas .rodadasGasparini img {
   width: 200px;
