@@ -68,51 +68,113 @@ nav div.container-fluid a.navbar-brand img {
   display: grid;
   width: 100%;
 }
-.index div {
+
+.imgCafe-icon {
+  background-image: url("../imagenes/imgCafe.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
   height: 150px;
+  line-height: 150px;
   border: 10px solid black;
   transition: all 1s;
 }
-.index div:hover {
+.imgCafe-icon:hover {
   transform: scale(1);
 }
-.index div:active {
+.imgCafe-icon:active {
   transform: scale(1.1);
 }
-.index div a {
+.imgCafe-icon a {
   text-decoration: none;
   color: #ffffff;
   font-size: 40px;
   font-weight: bold;
 }
-.index div a:hover {
+.imgCafe-icon a:hover {
   text-shadow: 0 0 10px rgb(245, 244, 244);
 }
-.index .indexCafe,
-.index .indexRodadas,
-.index .indexTaller,
-.index .indexTienda {
-  display: block;
+
+.imgRodadas-icon {
+  background-image: url("../imagenes/imgRodadas.jpg");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   text-align: center;
+  height: 150px;
   line-height: 150px;
+  border: 10px solid black;
+  transition: all 1s;
+}
+.imgRodadas-icon:hover {
+  transform: scale(1);
+}
+.imgRodadas-icon:active {
+  transform: scale(1.1);
+}
+.imgRodadas-icon a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: bold;
+}
+.imgRodadas-icon a:hover {
+  text-shadow: 0 0 10px rgb(245, 244, 244);
 }
 
-.indexCafe {
-  background-image: url(./imagenes/cafe.jpg);
+.imgTaller-icon {
+  background-image: url("../imagenes/imgTaller.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 150px;
+  line-height: 150px;
+  border: 10px solid black;
+  transition: all 1s;
+}
+.imgTaller-icon:hover {
+  transform: scale(1);
+}
+.imgTaller-icon:active {
+  transform: scale(1.1);
+}
+.imgTaller-icon a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: bold;
+}
+.imgTaller-icon a:hover {
+  text-shadow: 0 0 10px rgb(245, 244, 244);
 }
 
-.indexRodadas {
-  background-image: url(./imagenes/fondo2.jpg);
+.imgTienda-icon {
+  background-image: url("../imagenes/imgTienda.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 150px;
+  line-height: 150px;
+  border: 10px solid black;
+  transition: all 1s;
 }
-
-.indexTaller {
-  background-image: url(./imagenes/taller.jpg);
+.imgTienda-icon:hover {
+  transform: scale(1);
 }
-
-.indexTienda {
-  background-image: url(./imagenes/bicispared.webp);
+.imgTienda-icon:active {
+  transform: scale(1.1);
+}
+.imgTienda-icon a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: bold;
+}
+.imgTienda-icon a:hover {
+  text-shadow: 0 0 10px rgb(245, 244, 244);
 }
 
 @media only screen and (min-width: 480px) {

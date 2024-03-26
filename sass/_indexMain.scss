@@ -1,16 +1,25 @@
 .index {
     display: grid;
     width: 100%;
+}
 
-    div {
+@each $img in imgCafe, imgRodadas, imgTaller, imgTienda {
+    .#{$img}-icon {
+        background-image: url("../imagenes/#{$img}.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        text-align: center;
         height: 150px;
+        line-height: 150px;
         border: 10px solid black;
         transition: all 1s;
 
         &:hover {
             transform: scale(1);
         }
-        &:active{
+
+        &:active {
             transform: scale(1.1);
         }
 
@@ -25,36 +34,7 @@
             }
         }
     }
-
-    .indexCafe,
-    .indexRodadas,
-    .indexTaller,
-    .indexTienda {
-        display: block;
-        background-size: cover;
-        background-position: center;
-        text-align: center;
-        line-height: 150px;
-    }
-
 }
-
-.indexCafe {
-    background-image: url(./imagenes/cafe.jpg);
-}
-
-.indexRodadas {
-    background-image: url(./imagenes/fondo2.jpg);
-}
-
-.indexTaller {
-    background-image: url(./imagenes/taller.jpg);
-}
-
-.indexTienda {
-    background-image: url(./imagenes/bicispared.webp);
-}
-
 
 @media only screen and (min-width: 480px) {
     .index div {
