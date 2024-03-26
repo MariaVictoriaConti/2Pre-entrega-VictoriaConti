@@ -59,10 +59,15 @@
             }
         }
 
-        .botonMasInfo a {
+        .botonMasInfo {
+            a {
             margin: 0px;
         }
+        p{
+            color: $color;
+        }
     }
+}
 
     .rodadasmitad2 {
         text-align: center;

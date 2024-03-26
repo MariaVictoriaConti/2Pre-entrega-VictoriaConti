@@ -588,6 +588,9 @@ footer h5 {
 .sectionrodadas .botonMasInfo a {
   margin: 0px;
 }
+.sectionrodadas .botonMasInfo p {
+  color: #ffffff;
+}
 
 .rodadasmitad2 {
   text-align: center;
