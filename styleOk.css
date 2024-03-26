@@ -70,7 +70,7 @@ nav div.container-fluid a.navbar-brand img {
 }
 
 .imgCafe-icon {
-  background-image: url("../imagenes/imgCafe.jpg");
+  background-image: url("imagenes/imgCafe.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -97,7 +97,7 @@ nav div.container-fluid a.navbar-brand img {
 }
 
 .imgRodadas-icon {
-  background-image: url("../imagenes/imgRodadas.jpg");
+  background-image: url("imagenes/imgRodadas.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -124,7 +124,7 @@ nav div.container-fluid a.navbar-brand img {
 }
 
 .imgTaller-icon {
-  background-image: url("../imagenes/imgTaller.jpg");
+  background-image: url("imagenes/imgTaller.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -151,7 +151,7 @@ nav div.container-fluid a.navbar-brand img {
 }
 
 .imgTienda-icon {
-  background-image: url("../imagenes/imgTienda.jpg");
+  background-image: url("imagenes/imgTienda.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
