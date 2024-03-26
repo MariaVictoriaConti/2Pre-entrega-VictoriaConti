@@ -194,6 +194,9 @@ nav div.container-fluid a.navbar-brand img {
   .index div {
     width: 45%;
   }
+  .index div:hover {
+    transform: scale(1.01);
+  }
 }
 footer {
   height: 70px;
